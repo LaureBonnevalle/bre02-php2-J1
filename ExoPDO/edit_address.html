@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Demo Formulaires</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form method="post" action="edit_address.php">
+            <fieldset>
+                <label for="id">
+                    ID
+                </label>
+                <input type="number" name="id" id="id" />
+            </fieldset>
+            <fieldset>
+                <label for="street">
+                    Rue
+                </label>
+                <input type="text" name="street" id="street" />
+            </fieldset>
+            <fieldset>
+                <label for="city">
+                    Ville
+                </label>
+                <input type="text" name="city" id="city" />
+            </fieldset>
+            <fieldset>
+                <label for="zipcode">
+                    Code Postal
+                </label>
+                <input type="text" name="zipcode" id="zipcode" />
+            </fieldset>
+            <fieldset>
+                <button type="submit">Envoyer</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
